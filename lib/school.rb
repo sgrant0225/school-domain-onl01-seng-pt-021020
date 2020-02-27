@@ -17,6 +17,7 @@ def initialize(name)
     @roster[grade] << student_names
   else
     @roster[grade] = []
+    @roster[grade] << student_names
   end
  end
 end
