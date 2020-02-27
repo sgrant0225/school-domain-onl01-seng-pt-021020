@@ -2,13 +2,13 @@ class School
 
 
 def initialize(school)
-  #@roster = roster
+  @roster = roster
   @school = school
  end
  
-# def roster
-#   @roster
-# end
+ def roster
+   @roster
+ end
  
  def school
    @school
