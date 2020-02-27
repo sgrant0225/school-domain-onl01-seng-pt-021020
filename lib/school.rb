@@ -12,7 +12,7 @@ def initialize(name)
  end
  
  def add_student(student_names, grade)
-  if student_names.length != 0 
+  if roster = 
     roster << student_names
  end
 end
