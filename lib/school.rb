@@ -11,7 +11,7 @@ def initialize(name)
    @roster
  end
  
- def add_student
-  arr_
+ def add_student(names, numbers)
+  
  end
 end
