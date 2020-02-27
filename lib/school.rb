@@ -13,7 +13,7 @@ def initialize(name)
  
  def add_student(student_names, grade)
   if grade.has_key?(grade)
-    @roster << grade
+    @roster[grade] << student_names
   end
  end
 end
