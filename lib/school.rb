@@ -25,7 +25,7 @@ def initialize(name)
   end
   
   def sort 
-   @rosser.each do |key, value|
+   @roster.each do |key, value|
      values.sort!
    end
   end
