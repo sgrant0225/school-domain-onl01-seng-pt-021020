@@ -20,8 +20,8 @@ def initialize(name)
     @roster[grade] << student_names
   end
   
-  def grade
-  
+  def grade(grade)
+    
   end
  end
 end
