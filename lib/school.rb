@@ -13,6 +13,6 @@ def initialize(name)
  
  def add_student(student_names, grade)
   if roster.includes?(:key) 
-    roster << student_names
+    roster << grade
  end
 end
