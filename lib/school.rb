@@ -12,6 +12,6 @@ def initialize(name)
  end
  
  def add_student
-  
+  arr_
  end
 end
