@@ -6,7 +6,13 @@ def initialize(roster, school)
   @school = school
  end
  
+ def roster
+   @roster
+ end
  
+ def school
+   @school
+ end
 end  
 
 
