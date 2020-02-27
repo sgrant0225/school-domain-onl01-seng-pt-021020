@@ -9,7 +9,7 @@ def initialize(name)
  
  def roster
    @roster
-   
+   roster
  end
 end
 
