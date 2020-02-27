@@ -16,7 +16,7 @@ def initialize(name)
     @roster.has_key?(grade)
     @roster[grade] << student_names
   else
-    @roster[grade] << student_names
+    @roster[grade] << student_names.to_a
   end
  end
 end
