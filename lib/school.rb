@@ -23,5 +23,9 @@ def initialize(name)
   def grade(grade)
     @roster[grade]
   end
+  
+  def sort 
+   @rosser.each do |key, value|
+  end
  end
 end
