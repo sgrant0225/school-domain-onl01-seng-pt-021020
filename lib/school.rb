@@ -3,10 +3,11 @@ class School
 
 def initialize(school, name)
   @school = school
+  @name = name
  end
  
  def school
-   @school_name
+   @school
  end
  
  def name 
