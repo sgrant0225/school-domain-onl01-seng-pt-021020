@@ -21,7 +21,7 @@ def initialize(name)
   end
   
   def grade(grade)
-    
+    @roster[grade]
   end
  end
 end
