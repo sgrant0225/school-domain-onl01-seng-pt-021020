@@ -12,7 +12,7 @@ def initialize(name)
  end
  
  def add_student(student_names, grade)
-  if grade == 10
+  if grade.has
     roster << grade
  end
 end
