@@ -9,6 +9,9 @@ def initialize(name)
  
  def roster
    @roster
-   roster
+ end
+ 
+ def add_student
+  @add_student
  end
 end
