@@ -11,7 +11,7 @@ def initialize(name)
    @roster
  end
  
- def add_student(names, numbers)
-  if names.length == 
+ def add_student(student_names, grade)
+  if student_names
  end
 end
