@@ -1,7 +1,7 @@
 class School
 
 
-def initialize(roster, school)
+def initialize(roster)
 
  end
 end  
