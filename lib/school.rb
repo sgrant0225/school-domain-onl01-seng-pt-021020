@@ -19,5 +19,9 @@ def initialize(name)
     @roster[grade] = []
     @roster[grade] << student_names
   end
+  
+  def grade
+  
+  end
  end
 end
