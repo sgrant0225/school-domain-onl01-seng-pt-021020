@@ -13,5 +13,7 @@ def initialize(name)
  
  def add_student
   @add_student
+  array = []
+  add_student.each do |key, value|
  end
 end
