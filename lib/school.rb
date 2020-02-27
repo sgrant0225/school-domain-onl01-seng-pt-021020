@@ -14,9 +14,9 @@ def initialize(name)
  def add_student(student_names, grade)
   if 
     @roster.has_key?(grade)
-    @roster[grade] << student_names
+    @roster[grade] = []
   else
-    @roster[grade] << student_names.to_a
+    @roster[grade] << student_names
   end
  end
 end
