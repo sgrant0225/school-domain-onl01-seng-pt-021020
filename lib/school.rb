@@ -26,7 +26,7 @@ def initialize(name)
   
   def sort 
    @roster.each do |key, value|
-     values.sort!
+     value.sort!
    end
   end
  end
