@@ -12,5 +12,3 @@ def initialize(name)
    roster
  end
 end
-
-binding.pry
